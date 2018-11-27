@@ -14,6 +14,7 @@ require "ruby_phpipam/address"
 require "ruby_phpipam/subnet"
 require "ruby_phpipam/section"
 require "ruby_phpipam/vlan"
+require "ruby_phpipam/location"
 
 module RubyPhpipam
   class << self
