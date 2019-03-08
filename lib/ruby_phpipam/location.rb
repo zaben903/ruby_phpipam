@@ -11,7 +11,7 @@ module RubyPhpipam
       @long = json[:long]
       @RHL_ID = json[:RHL_ID]
       @Independent = RubyPhpipam::Helper.to_type(json[:Independent], :binary)
-      @custom_Business_Unit = json[:Custom_Business_Unit]
+      @custom_Business_Unit = json[:custom_Business_Unit]
     end
 
     def self.get_all
